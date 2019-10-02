@@ -14,7 +14,10 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
-  }
+  },
+  { path: 'camera', loadChildren: './camera/camera.module#CameraPageModule' },
+  { path: 'comandovoz', loadChildren: './comandovoz/comandovoz.module#ComandovozPageModule' },
+  { path: 'codigobarras', loadChildren: './codigobarras/codigobarras.module#CodigobarrasPageModule' }
 ];
 
 @NgModule({

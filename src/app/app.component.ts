@@ -20,7 +20,23 @@ export class AppComponent {
       title: 'List',
       url: '/list',
       icon: 'list'
-    }
+    },
+    {
+      title: 'Tirar Foto',
+      url:'/camera',
+      icon: 'camera'
+    },
+    {
+      title: 'Comando de Voz',
+      url:'/comandovoz',
+      icon: 'microphone'
+    },
+    {
+      title: 'Leitor de Cód. de Barras',
+      url:'/codigobarras',
+      icon: 'barcode'
+    },
+
   ];
 
   constructor(
